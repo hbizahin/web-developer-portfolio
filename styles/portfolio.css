@@ -210,7 +210,9 @@ textarea{
     border: 0px;
     width: 100%;
 }
-
+.hide{
+    display: none;
+}
 /* resposive styles */
 /* mobile devices */
 @media screen and (max-width: 576px) {
