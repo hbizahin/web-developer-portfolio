@@ -1,273 +1,282 @@
 /* common shared styles */
 body {
-    font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 .text-primary-color {
-    color: #FD6E0A;
+  color: #fd6e0a;
 }
 
 .btn-primary {
-    border-radius: 5px;
-    background: #FD6E0A;
-    border: 0px;
-    font-size: 20px;
-    font-weight: 700;
-    color: white;
-    padding: 15px 35px;
+  border-radius: 5px;
+  background: #fd6e0a;
+  border: 0px;
+  font-size: 20px;
+  font-weight: 700;
+  color: white;
+  padding: 15px 35px;
 }
-main section{
-    margin-top: 130px;
+main section {
+  margin-top: 130px;
 }
 /* nav related styles */
 nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 200px;
 }
 
 .nav-title {
-    color: #181818;
-    font-size: 45px;
-    font-weight: 800;
+  color: #181818;
+  font-size: 45px;
+  font-weight: 800;
 }
 
-nav>ul {
-    display: flex;
-    align-items: center;
+nav > ul {
+  display: flex;
+  align-items: center;
 }
 
 nav li {
-    list-style: none;
-    margin-right: 50px;
+  list-style: none;
+  margin-right: 50px;
 }
 
 nav a {
-    text-decoration: none;
-    color: #474747;
+  text-decoration: none;
+  color: #474747;
 }
 
 /* header related styles */
 .header {
-    background: #FFF8F3;
-    background-image: url("../images/header_bg.png"), url('../images/developer.png');
-    background-repeat: no-repeat;
-    background-position: bottom right, top left;
+  background: #fff8f3;
+  background-image: url("../images/header_bg.png"),
+    url("../images/developer.png");
+  background-repeat: no-repeat;
+  background-position: bottom right, top left;
 }
 
-
 .banner {
-    padding: 30px 30px 0px 150px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+  padding: 30px 30px 0px 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .banner-content {
-    max-width: 730px;
+  max-width: 730px;
 }
 
 .banner .profile-picture {
-    width: 500px
+  width: 500px;
 }
 
 .banner-greeting {
-    font-size: 45px;
-    color: #474747;
-    margin-bottom: 0px;
+  font-size: 45px;
+  color: #474747;
+  margin-bottom: 0px;
 }
 
 .banner-title {
-    font-size: 85px;
-    font-weight: 700;
-    margin-top: 5px;
-    margin-bottom: 20px;
+  font-size: 85px;
+  font-weight: 700;
+  margin-top: 5px;
+  margin-bottom: 20px;
 }
 
 .banner-description {
-    margin-bottom: 30px;
-    color: #757575;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 30px;
+  margin-bottom: 30px;
+  color: #757575;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
 }
-
 
 /* main section styles */
-.about{
-    padding: 130px;
-    border-radius: 10px;
-    background-color: #FFF8F3;
-    margin: 130px;
+.about {
+  padding: 130px;
+  border-radius: 10px;
+  background-color: #fff8f3;
+  margin: 130px;
 }
-.section-title{
-    color:#181818;
-    text-align: center;
-    font-size: 35px;
-    font-weight: 700;
+.section-title {
+  color: #181818;
+  text-align: center;
+  font-size: 35px;
+  font-weight: 700;
 }
-.section-description{
-    color: #757575;
-    text-align: center;
-    font-size: 18px;
+.section-description {
+  color: #757575;
+  text-align: center;
+  font-size: 18px;
 }
 
-main{
-    max-width: 1140px;
-    margin: 0px auto;
+main {
+  max-width: 1140px;
+  margin: 0px auto;
 }
-.about-info-container{
-    display: flex;
-    justify-content: space-around;
+.about-info-container {
+  display: flex;
+  justify-content: space-around;
 }
-.about-info{
-    text-align: center;
+.about-info {
+  text-align: center;
 }
 /* skills related styles */
-#what-i-do-description{
-    padding: 30px 150px;
+#what-i-do-description {
+  padding: 30px 150px;
 }
-.skills-container{
-    display: flex;
-    gap: 24px;
-
+.skills-container {
+  display: flex;
+  gap: 24px;
 }
-.skill{
-    padding: 30px;
-    border-radius: 5px;
-    background: #FFF;
-    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+.skill {
+  padding: 30px;
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
 }
-.skill-description{
-    color:#757575;
+.skill-description {
+  color: #757575;
 }
 
 /* Resume Section Styles */
 
-.resume-column-title{
-    color: var #474747;
-    font-size: 30px;
-    font-weight: 700;
+.resume-column-title {
+  color: var #474747;
+  font-size: 30px;
+  font-weight: 700;
 }
-.resume-item-title{
-    color: var #474747;
-    font-size: 25px;
-    font-weight: 700;
-    margin-bottom: 10px;
-}
-
-.resume-container{
-    display: flex;
-    gap: 50px;
+.resume-item-title {
+  color: var #474747;
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 10px;
 }
 
-.resume-item-institute{
-    color: #757575;
-    font-size: 20px;
-    margin-bottom: 20px;
-    margin-top: 0px;
+.resume-container {
+  display: flex;
+  gap: 50px;
 }
 
-.resume-item-description{
-    color: #757575;
-    font-size: 16px;
+.resume-item-institute {
+  color: #757575;
+  font-size: 20px;
+  margin-bottom: 20px;
+  margin-top: 0px;
 }
 
-.resume-container hr{
-    margin: 30px;
+.resume-item-description {
+  color: #757575;
+  font-size: 16px;
 }
 
-.download-cv{
-    text-align: center;
-    margin-top: 50px;
+.resume-container hr {
+  margin: 30px;
+}
+
+.download-cv {
+  text-align: center;
+  margin-top: 50px;
 }
 
 /* footer style */
-footer{
-    display: flex;
-    gap: 100px;
-    background:#FFF8F3;
-    margin-top: 100px;
-    padding: 130px 200px;
+footer {
+  display: flex;
+  gap: 100px;
+  background: #fff8f3;
+  margin-top: 100px;
+  padding: 130px 200px;
 }
 
-.footer-column{
-    width: 50%;
+.footer-column {
+  width: 50%;
 }
-.social-links a{
-    margin-right: 25px;
-
+.social-links a {
+  margin-right: 25px;
 }
-.contact input[type="text"], .contact input[type="email"],
-textarea{
-    display: block;
-    margin-bottom: 25px;
-    padding: 18px 35px;
-    color: #757575;
-    border-radius: 5px;
-    background: #FFF;
-    border: 0px;
-    width: 100%;
+.contact input[type="text"],
+.contact input[type="email"],
+textarea {
+  display: block;
+  margin-bottom: 25px;
+  padding: 18px 35px;
+  color: #757575;
+  border-radius: 5px;
+  background: #fff;
+  border: 0px;
+  width: 100%;
 }
-.hide{
-    display: none;
+.hide {
+  display: none;
 }
 /* resposive styles */
 /* mobile devices */
 @media screen and (max-width: 576px) {
-    .nav-title{
-        margin-right: 20px;
-    }
-    .banner-content{
-        margin-left: 20px;
-    }
-    .header{
-        background-image: none;
-    }
-    .banner .profile-picture{
-        width: 100%;
-    }
-    .btn-primary{
-        margin-bottom: 20px;
-        
-    }
-    nav >ul{
-        gap: 10px;
-    }
-    .skills-container{
-        flex-direction: column;
-    }
-    .banner, #what-i-do-description{
-        padding: 20px;
-    }
-    .resume-container{
-        flex-direction: column;
-        padding: 20px;
-    }
-    .banner, footer, nav, nav > ul{
-        flex-direction: column;
-        padding: 10px;
-    }
-    .footer-column{
-        width: 100%;
-    }
-    .contact input[type="text"], .contact input[type="email"], textarea{
-        width: 80%;
-    }
-    .about{
-        padding: 10px;
-        margin: 0px;
-    }
-    .about-info-container{
-        flex-direction: column;
-    }
+  .nav-title {
+    margin-right: 20px;
+  }
+  .banner-content {
+    margin-left: 20px;
+  }
+  .header {
+    background-image: none;
+  }
+  .banner .profile-picture {
+    width: 100%;
+  }
+  .btn-primary {
+    margin-bottom: 20px;
+  }
+  nav > ul {
+    gap: 10px;
+  }
+  .skills-container {
+    flex-direction: column;
+  }
+  .banner,
+  #what-i-do-description {
+    padding: 20px;
+  }
+  .resume-container {
+    flex-direction: column;
+    padding: 20px;
+  }
+  .banner,
+  footer,
+  nav,
+  nav > ul {
+    flex-direction: column;
+    padding: 10px;
+  }
+  .footer-column {
+    width: 100%;
+  }
+  .contact input[type="text"],
+  .contact input[type="email"],
+  textarea {
+    width: 80%;
+  }
+  .about {
+    padding: 10px;
+    margin: 0px;
+  }
+  .about-info-container {
+    flex-direction: column;
+  }
 }
-@media screen and (min-width: 576px) and (max-width:960px){
-    footer{
-        padding: 30px;
-    }
-    .btn-primary{
-        margin-bottom: 20px;
-    }
+@media screen and (min-width: 576px) and (max-width: 960px) {
+  footer {
+    padding: 30px;
+  }
+  .btn-primary {
+    margin-bottom: 20px;
+  }
+}
+
+/* Written text bold */
+.contact input,
+.contact textarea {
+  font-weight: bold;
 }
